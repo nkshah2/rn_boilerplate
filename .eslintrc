@@ -1,0 +1,31 @@
+{
+    "parser": "babel-eslint",
+    "env": {
+        "browser": true,
+        "react-native/react-native": true
+    },
+    "plugins": [
+        "react",
+        "react-native"
+    ],
+    "extends": [
+        "eslint:recommended",
+        "plugin:react/recommended"
+    ],
+    "rules": {
+        "default-case": "error",
+        "no-magic-numbers": "error",
+        "react-native/no-unused-styles": "error",
+        "react-native/no-inline-styles": "error"
+    },
+    "parserOptions": {
+        "ecmaFeatures": {
+            "jsx": true
+        }
+    },
+    "settings": {
+        "react": {
+            "version": "detect"
+        }
+    }
+}
